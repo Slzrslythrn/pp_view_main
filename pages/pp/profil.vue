@@ -21,18 +21,19 @@
         <b-navbar-brand href="./"
           ><img src="~/assets/img/icon.jpeg" alt="" height="50" width="50"
         /></b-navbar-brand>
-        <h4><span>PP.Manba'ul Hisan</span></h4>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-
+        <div class="np">
+        <h3>Pondok Pesantren Manba'ul Hisan</h3>
+         </div>
         <b-collapse id="nav-collapse" is-nav>
           <!-- Right aligned nav items -->
           <b-navbar-nav class="ml-auto">
             <b-navbar-nav>
-              <b-nav-item href="profil" class="nav-p">Profil</b-nav-item>
-              <b-nav-item href="berita">Berita</b-nav-item>
-              <b-nav-item href="dokumen">Dokumen</b-nav-item>
-              <b-nav-item href="posyandu">Posyandu</b-nav-item>
-              <b-nav-item href="galeri">Galeri</b-nav-item>
+              <b-nav-item><NuxtLink :to="('profil')">Profil</NuxtLink></b-nav-item>
+              <b-nav-item><NuxtLink :to="('posyandu')">Posyandu</NuxtLink></b-nav-item>
+              <b-nav-item><NuxtLink :to="('berita')">Berita</NuxtLink></b-nav-item>
+              <b-nav-item><NuxtLink :to="('dokumen')">Dokumen</NuxtLink></b-nav-item>
+              <b-nav-item><NuxtLink :to="('galeri')">Galeri</NuxtLink></b-nav-item>
             </b-navbar-nav>
           </b-navbar-nav>
         </b-collapse>
@@ -61,7 +62,7 @@
             </div>
           </div>
           <div class="image">
-            <img src="~/assets/img/bg.jpg" />
+            <img src="~/assets/img/banner1.jpeg"/>
           </div>
         </div>
 
@@ -76,7 +77,7 @@
             </div>
           </div>
           <div class="image">
-            <img src="~/assets/img/bg.jpg" />
+            <img src="~/assets/img/banner2.jpeg" />
           </div>
         </div>
 
@@ -91,7 +92,7 @@
             </div>
           </div>
           <div class="image">
-            <img src="~/assets/img/bg.jpg" />
+            <img src="~/assets/img/banner3.jpeg" />
           </div>
         </div>
 
@@ -106,7 +107,7 @@
             </div>
           </div>
           <div class="image">
-            <img src="~/assets/img/bg.jpg" />
+            <img src="~/assets/img/Discover SEKOLAH Empowering Education for Every Child.png" />
           </div>
         </div>
       </div>
@@ -126,26 +127,15 @@
     <!-- PROFIL START -->
     <div class="profil">
       <b-tabs content-class="mt-3" justified>
-        <!-- profil kecamatan -->
-        <b-tab title="Profil Kecamatan" class="tabs" active>
-          <h2>Profil <span>Kecamatan</span></h2>
+        <!-- profil Pesantren -->
+        <b-tab title="Profil Pesantren" class="tabs" active>
+          <h2>Profil <span>Pesantren</span></h2>
 
           <p>
-            - Luas Wilayah Kecamatan Bogor Utara adalah 1.772 Ha dengan
-            kepadatan 88 Jiwa/Ha terdiri dari 8 Kelurahan, 108 RW dan 154 RT.
-            Adapun Kelurahan yang dimaksud :
+            - Pesantren Salaf, Pesantren Salafi, atau Pesantren Salafiyah adalah sebutan bagi pondok pesantren yang mengkaji kitab-kitab kuning. Pesantren salaf identik dengan pesantren tradisional yang berbeda dengan pesantren modern dalam hal metode pengajaran dan infrastrukturnya.
           </p>
 
           <div class="tabwil">
-            <div calss="table">
-              <b-table
-                striped
-                hover
-                :items="items"
-                :fields="fields"
-                outlined
-              ></b-table>
-            </div>
             <div class="batwil">
               <h5>Batas Wilayah Kecamatan Bogor Utara</h5>
               <p>
@@ -217,12 +207,27 @@
           </div>
         </b-tab>
 
-        <!-- Data Pejabat -->
-        <b-tab title="Data Pejabat">
-          <!-- <h2>Data <span>Pejabat</span></h2> -->
-          <div class="datapejabat-img">
-            <img src="~/assets/img/daftarpejabat.png" alt="daftarpejabat." />
-          </div>
+        <!-- Data Pengajar -->
+        <b-tab title="Data Pengajar">
+          <h2>Data <span>Pengajar</span></h2>
+          <div class="table">
+              <b-table
+                striped
+                hover
+                :items="items"
+                :fields="fields"
+                outlined
+              ></b-table>
+            </div>
+            <!-- <div class="table">
+              <b-table
+                striped
+                hover
+                :items="items"
+                :fields="fields"
+                outlined
+              ></b-table>
+            </div> -->
         </b-tab>
 
         <!-- struktur organisasi -->
@@ -233,56 +238,6 @@
               src="~/assets/img/struktur_organisasi.png"
               alt="Struktur Organisasi Gambar"
             />
-          </div>
-        </b-tab>
-
-        <!-- Peta Wilayah -->
-        <b-tab title="Peta Wilayah">
-          <h2>Peta <span>Wilayah</span></h2>
-          <div class="all-map">
-            <div class="admin-kec-img">
-              <img
-                src="~/assets/img/peta_admin_kecbogut.png"
-                alt="Struktur Organisasi Gambar"
-              />
-            </div>
-
-            <div class="admin-kota-img">
-              <img
-                src="~/assets/img/peta_admin_kotabogor.png"
-                alt="Struktur Organisasi Gambar"
-              />
-            </div>
-          </div>
-        </b-tab>
-
-        <!-- Data Demografi -->
-        <b-tab title="Data Demografi">
-          <h2>Data <span>Demografi</span></h2>
-          <p style="font-weight: bold">Data Jumlah Penduduk :</p>
-
-          <p>Total Jumlah Penduduk (Per RT, RW) :</p>
-
-          <p>
-            JUMLAH RT DAN RW PERKELURAHAN SE KECAMATAN KOTA BOGOR UTARA TAHUN
-            2019
-          </p>
-
-          <p>
-            Berdasarkan laporan bulanan kependudukan, jumlah penduduk Kecamatan
-            Bogor Utara adalah 36.678 Kepala Keluarga, terdiri dari 152.973 jiwa
-            dengan perincian sebagai berikut :
-          </p>
-
-          <!-- <div style="display: flex;">
-            <div>
-
-            </div>
-            <div></div>
-          </div> -->
-
-          <div>
-            <b-table striped hover outlined :items="daftar"></b-table>
           </div>
         </b-tab>
       </b-tabs>
@@ -298,9 +253,9 @@
             <h3>KONTAK KAMI</h3>
           </div>
           <div class="foot-almt" style="margin-top: 20px">
-            <h5>Alamat Kantor :</h5>
+            <h5>Alamat Pondok Pesantren :</h5>
             <p style="margin-bottom: 20px; font-size: 14px">
-              Jl. Gagalur II No.2
+              Jl. Karadenan Kaumpandak Cibinong Bogor, Bogor, Indonesia
             </p>
           </div>
 
@@ -313,7 +268,7 @@
 
           <div class="foot-almt" style="margin-top: 30px">
             <h5>No Telopn :</h5>
-            <p style="margin-bottom: 20px; font-size: 14px">(0251) 8323444</p>
+            <p style="margin-bottom: 20px; font-size: 14px">+62895613170166</p>
           </div>
         </div>
         <div class="line"></div>
@@ -370,6 +325,7 @@ body {
   color: black;
   font-weight: bold;
   background-color: white;
+  text-decoration: none;
 }
 
 .navbar-2 {
@@ -379,7 +335,7 @@ body {
 /* HERO SECTION */
 #slider {
   width: 100%;
-  height: 580px;
+  height: 350px;
   position: relative;
   overflow: hidden;
 }
@@ -446,7 +402,7 @@ body {
   height: 150px;
   float: left;
   position: relative;
-  top: 350px;
+  top: 50px;
   -webkit-animation: content-s 7.5s infinite;
   -moz-animation: content-s 7.5s infinite;
   animation: content-s 7.5s infinite;
@@ -462,7 +418,7 @@ body {
 }
 
 .content-txt h1 span {
-  color: #3375cc;
+  color: #1eb355;
   font-weight: bold;
 }
 
@@ -487,7 +443,7 @@ body {
 }
 
 /* Switch */
-.switch {
+/* .switch {
   width: 120px;
   height: 10px;
   position: absolute;
@@ -509,8 +465,8 @@ body {
 }
 .switch ul {
   overflow: hidden;
-}
-.on {
+} */
+/* .on {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -519,7 +475,7 @@ body {
   -webkit-animation: on 30s infinite;
   -moz-animation: on 30s infinite;
   animation: on 30s infinite;
-}
+} */
 
 /* Animation */
 @-webkit-keyframes slide {
@@ -796,20 +752,12 @@ body {
   /* height: 1000px; */
 }
 
-.profil title {
-  color: #3375cc;
-}
-
 /* profil kec */
 
 .tabs h2 {
   text-align: center;
   margin-top: 50px;
   font-size: 25px;
-}
-
-.tabs h2 span {
-  color: #3375cc;
 }
 
 .tabs p {
@@ -824,10 +772,6 @@ body {
   display: flex;
   justify-content: center;
   gap: 20px;
-}
-
-.table {
-  width: 400px;
 }
 
 .batwil h5 {
@@ -865,12 +809,9 @@ body {
 }
 
 /* data pejabat */
-.datapejabat-img img {
-  margin-top: 20px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+.table{
   justify-content: center;
+  margin-left: 250px;
 }
 
 /* struktur organisasi */
@@ -1001,6 +942,8 @@ body {
 
   .table {
     width: 100%;
+    justify-content: center;
+    text-align: center;
   }
 
   .vs {
@@ -1027,21 +970,6 @@ body {
 <!-- --------- -->
 <!--ALL SCRIPT -->
 <!-- --------- -->
-
-<script>
-export default {
-  data() {
-    return {
-      daftar: [
-        { age: 40, first_name: "Dickerson", last_name: "Macdonald" },
-        { age: 21, first_name: "Larsen", last_name: "Shaw" },
-        { age: 89, first_name: "Geneva", last_name: "Wilson" },
-        { age: 38, first_name: "Jami", last_name: "Carney" },
-      ],
-    };
-  },
-};
-</script>
 
 <!-- script slide card -->
 <script>
@@ -1077,21 +1005,31 @@ export default {
   head() {
     return {
       title: "PROFIL | PP. Manba'ul Hisan",
-      meta: [
+    };
+  },
+
+  data() {
+    return {
+      // Note `isActive` is left out and will not appear in the rendered table
+      fields: ["No", "Nama_Pengajar","Mengajar"],
+      items: [
         {
-          hid: "og:title",
-          name: "og:title",
-          content: "Belajar Bareng - Mari Belajar Bareng",
+          isActive: true,
+          No: "1",
+          Nama_Pengajar: "KH. Yusin Haqiqi",
+          Mengajar: "Kitab Kuning",
         },
         {
-          hid: "og:site_name",
-          name: "og:site_name",
-          content: "Belajar Bareng - Mari Belajar Bareng",
+          isActive: true,
+          No: "2",
+          Nama_Pengajar: "Ust. Ahmad Haqiqi",
+          Mengajar: "Kitab Kuning",
         },
         {
-          hid: "og:image",
-          name: "og:image",
-          content: "https://i.imgur.com/xKOCz0P.png",
+          isActive: true,
+          No: "3",
+          Nama_Pengajar: "Ust. Syafikul Kholqi",
+          Mengajar: "Kitab Kuning",
         },
       ],
     };
@@ -1100,47 +1038,52 @@ export default {
   data() {
     return {
       // Note `isActive` is left out and will not appear in the rendered table
-      fields: ["No", "Nama_Kelurahan"],
+      fields: ["No", "Nama_Pengajar","Mengajar"],
       items: [
         {
           isActive: true,
           No: "1",
-          Nama_Kelurahan: "Bantar Jati",
+          Nama_Pengajar: "KH. Yusin Haqiqi",
+          Mengajar: "Kitab Kuning",
         },
         {
           isActive: true,
           No: "2",
-          Nama_Kelurahan: "Cibuluh",
+          Nama_Pengajar: "Ust. Ahmad Haqiqi",
+          Mengajar: "Kitab Kuning",
         },
         {
           isActive: true,
           No: "3",
-          Nama_Kelurahan: "Tanah Baru",
+          Nama_Pengajar: "Ust. Syafikul Kholqi",
+          Mengajar: "Kitab Kuning",
+        },
+      ],
+    };
+  },
+  
+  data() {
+    return {
+      // Note `isActive` is left out and will not appear in the rendered table
+      fields: ["No", "Nama_Pengajar","Mengajar"],
+      items: [
+        {
+          isActive: true,
+          No: "1",
+          Nama_Pengajar: "KH. Yusin Haqiqi",
+          Mengajar: "Kitab Kuning",
         },
         {
           isActive: true,
-          No: "4",
-          Nama_Kelurahan: "Kedung Halang",
+          No: "2",
+          Nama_Pengajar: "Ust. Ahmad Haqiqi",
+          Mengajar: "Kitab Kuning",
         },
         {
           isActive: true,
-          No: "5",
-          Nama_Kelurahan: "Cipairgi",
-        },
-        {
-          isActive: true,
-          No: "6",
-          Nama_Kelurahan: "Tegal Gundil",
-        },
-        {
-          isActive: true,
-          No: "7",
-          Nama_Kelurahan: "Cimahpar",
-        },
-        {
-          isActive: true,
-          No: "8",
-          Nama_Kelurahan: "Ciluar",
+          No: "3",
+          Nama_Pengajar: "Ust. Syafikul Kholqi",
+          Mengajar: "Kitab Kuning",
         },
       ],
     };
