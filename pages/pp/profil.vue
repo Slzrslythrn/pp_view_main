@@ -13,7 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="~/assets/css/webkec.css" />
+    <!-- <link rel="stylesheet" href="~/assets/css/webkec.css" /> -->
     <!-- NAVBAR SATART -->
 
     <div id="navbar" style="position: fixed; width: 100%; z-index: 12">
@@ -62,7 +62,7 @@
             </div>
           </div>
           <div class="image">
-            <img src="~/assets/img/banner1.jpeg"/>
+            <img src="~/assets/img/banner1.jpg"/>
           </div>
         </div>
 
@@ -77,7 +77,7 @@
             </div>
           </div>
           <div class="image">
-            <img src="~/assets/img/banner2.jpeg" />
+            <img src="~/assets/img/banner2.jpg" />
           </div>
         </div>
 
@@ -92,7 +92,7 @@
             </div>
           </div>
           <div class="image">
-            <img src="~/assets/img/banner3.jpeg" />
+            <img src="~/assets/img/banner3.jpg" />
           </div>
         </div>
 
@@ -381,6 +381,10 @@ body {
   height: 100%;
 }
 
+.ml-auto{
+  text-decoration: none;
+}
+
 /* Legend */
 .legend {
   border: 500px solid transparent;
@@ -410,7 +414,7 @@ body {
 .content-txt h1 {
   text-transform: uppercase;
   font-size: 24px;
-  color: black;
+  color: #1eb355;
   text-align: left;
   margin-left: 30px;
   padding-bottom: 10px;

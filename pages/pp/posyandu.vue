@@ -19,129 +19,110 @@
       <div id="navbar" style="position: fixed; width: 100%; z-index: 12">
         <b-navbar toggleable="lg" class="navbar-2">
           <b-navbar-brand href="./"
-            ><img src="~/assets/img/logokecc.png" alt=""
-          /></b-navbar-brand>
-  
-          <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-  
-          <b-collapse id="nav-collapse" is-nav>
-            <!-- Right aligned nav items -->
-            <b-navbar-nav class="ml-auto">
-              <b-navbar-nav>
-                <b-nav-item href="profil" class="nav-p">Profil</b-nav-item>
-                <b-nav-item href="berita">Berita</b-nav-item>
-                <b-nav-item href="dokumen">Dokumen</b-nav-item>
-                <b-nav-item href="posyandu">Posyandu</b-nav-item>
-                <b-nav-item href="kontak">Kontak</b-nav-item>
-                <b-nav-item href="galeri">Galeri</b-nav-item>
-              </b-navbar-nav>
-  
-              <b-nav-item-dropdown right>
-                <!-- Using 'button-content' slot -->
-                <template #button-content>
-                  <em>Daftar Kelurahan</em>
-                </template>
-                <b-dropdown-item href="#">Bantar Jati</b-dropdown-item>
-                <b-dropdown-item href="#">Cibuluh</b-dropdown-item>
-                <b-dropdown-item href="#">Ciluar</b-dropdown-item>
-                <b-dropdown-item href="#">Cimahpar</b-dropdown-item>
-                <b-dropdown-item href="#">Ciparigi</b-dropdown-item>
-                <b-dropdown-item href="#">Kedunghalang</b-dropdown-item>
-                <b-dropdown-item href="#">Tanahbaru</b-dropdown-item>
-                <b-dropdown-item href="#">Tegalgundil</b-dropdown-item>
-              </b-nav-item-dropdown>
+          ><img src="~/assets/img/icon.jpeg" alt="" height="50" width="50"
+        /></b-navbar-brand>
+        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+        <div class="np">
+        <h3>Pondok Pesantren Manba'ul Hisan</h3>
+         </div>
+        <b-collapse id="nav-collapse" is-nav>
+          <!-- Right aligned nav items -->
+          <b-navbar-nav class="ml-auto">
+            <b-navbar-nav>
+              <b-nav-item><NuxtLink :to="('profil')">Profil</NuxtLink></b-nav-item>
+              <b-nav-item><NuxtLink :to="('posyandu')">Posyandu</NuxtLink></b-nav-item>
+              <b-nav-item><NuxtLink :to="('berita')">Berita</NuxtLink></b-nav-item>
+              <b-nav-item><NuxtLink :to="('dokumen')">Dokumen</NuxtLink></b-nav-item>
+              <b-nav-item><NuxtLink :to="('galeri')">Galeri</NuxtLink></b-nav-item>
             </b-navbar-nav>
-          </b-collapse>
-        </b-navbar>
-      </div>
-  
-      <!-- NAVBAR END -->
-  
-      <!-- BACK TO TOP -->
-      <a href="#slider" id="myBtn" title="Go to top" style="scroll-behavior: auto"
-        ><i class="fa-solid fa-angles-up"></i
-      ></a>
-      <!-- BACK TO TOP END -->
-  
-      <!-- HERO SECTION -->
-      <div id="slider">
-        <div class="slides">
-          <div class="slider">
-            <div class="legend"></div>
-            <div class="content">
-              <div class="content-txt">
-                <h1>Kecamatan <span>Bogor Utara</span></h1>
-                <p>
-                  Selamat Datang di Website Resmi Pemerintah Kota Bogor, Kecamatan
-                  Bogor Utara
-                </p>
-              </div>
-            </div>
-            <div class="image">
-              <img src="~/assets/img/BG2-KECAMATAN-01.jpg" />
+          </b-navbar-nav>
+        </b-collapse>
+      </b-navbar>
+    </div>
+
+    <!-- NAVBAR END -->
+
+    <!-- BACK TO TOP -->
+    <a href="#slider" id="myBtn" title="Go to top" style="scroll-behavior: auto"
+      ><i class="fa-solid fa-angles-up"></i
+    ></a>
+    <!-- BACK TO TOP END -->
+
+    <!-- HERO SECTION -->
+    <div id="slider">
+      <div class="slides">
+        <div class="slider">
+          <div class="legend"></div>
+          <div class="content">
+            <div class="content-txt">
+              <h1>PP. <span>Manba'ul Hisan</span></h1>
+              <p>
+                Selamat Datang di Website Resmi Pondok Pesantren Manba'ul Hisan
+              </p>
             </div>
           </div>
-  
-          <div class="slider">
-            <div class="legend"></div>
-            <div class="content">
-              <div class="content-txt">
-                <h1>Kecamatan <span>Bogor Utara</span></h1>
-                <p style="color: black">
-                  Selamat Datang di Website Resmi Pemerintah Kota Bogor, Kecamatan
-                  Bogor Utara
-                </p>
-              </div>
-            </div>
-            <div class="image">
-              <img src="~/assets/img/banner1revv.jpg" />
-            </div>
-          </div>
-  
-          <div class="slider">
-            <div class="legend"></div>
-            <div class="content">
-              <div class="content-txt">
-                <h1>Kecamatan <span>Bogor Utara</span></h1>
-                <p>
-                  Selamat Datang di Website Resmi Pemerintah Kota Bogor, Kecamatan
-                  Bogor Utara
-                </p>
-              </div>
-            </div>
-            <div class="image">
-              <img src="~/assets/img/banner3.jpg" />
-            </div>
-          </div>
-  
-          <div class="slider">
-            <div class="legend"></div>
-            <div class="content">
-              <div class="content-txt">
-                <h1>Kecamatan <span>Bogor Utara</span></h1>
-                <p>
-                  Selamat Datang di Website Resmi Pemerintah Kota Bogor, Kecamatan
-                  Bogor Utara
-                </p>
-              </div>
-            </div>
-            <div class="image">
-              <img src="~/assets/img/banner6.jpeg" />
-            </div>
+          <div class="image">
+            <img src="~/assets/img/banner1.jpg"/>
           </div>
         </div>
-        <div class="switch">
-          <ul>
-            <li>
-              <div class="on"></div>
-            </li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
+
+        <div class="slider">
+          <div class="legend"></div>
+          <div class="content">
+            <div class="content-txt">
+              <h1>PP. <span>Manba'ul Hisan</span></h1>
+              <p>
+                Selamat Datang di Website Resmi Pondok Pesantren Manba'ul Hisan
+              </p>
+            </div>
+          </div>
+          <div class="image">
+            <img src="~/assets/img/banner2.jpg" />
+          </div>
+        </div>
+
+        <div class="slider">
+          <div class="legend"></div>
+          <div class="content">
+            <div class="content-txt">
+              <h1>PP. <span>Manba'ul Hisan</span></h1>
+              <p>
+                Selamat Datang di Website Resmi Pondok Pesantren Manba'ul Hisan
+              </p>
+            </div>
+          </div>
+          <div class="image">
+            <img src="~/assets/img/banner3.jpg" />
+          </div>
+        </div>
+
+        <div class="slider">
+          <div class="legend"></div>
+          <div class="content">
+            <div class="content-txt">
+              <h1>PP. <span>Manba'ul Hisan</span></h1>
+              <p>
+                Selamat Datang di Website Resmi Pondok Pesantren Manba'ul Hisan
+              </p>
+            </div>
+          </div>
+          <div class="image">
+            <img src="~/assets/img/Discover SEKOLAH Empowering Education for Every Child.png" />
+          </div>
         </div>
       </div>
-      <!-- HERO SECTION END-->
+      <div class="switch">
+        <ul>
+          <li>
+            <div class="on"></div>
+          </li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+    <!-- HERO SECTION END-->
   
       <!-- POSYANDU START -->
       <div class="posyandu">
@@ -473,7 +454,7 @@
   }
   
   .content-txt h1 span {
-    color: #3375cc;
+    color: #1eb355;
     font-weight: bold;
   }
   
