@@ -203,7 +203,7 @@
         </b-tab>
 
         <!-- Galeri Vidio -->
-        <b-tab title="Galeri Vidio">
+        <b-tab title="Galeri Video">
           <h5 style="text-align: center">Tidak ada vidio</h5>
         </b-tab>
       </b-tabs>

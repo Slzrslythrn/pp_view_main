@@ -19,18 +19,14 @@
     <div id="navbar" style="position: fixed; width: 100%; z-index: 12">
       <b-navbar toggleable="lg" class="navbar-2">
         <b-navbar-brand href="./"
-          ><img src="~/assets/img/icon.jpeg" alt="" height="50" width="50"
-        /></b-navbar-brand>
+          ><img src="~/assets/img/CERDAS - IKHLAS -LUAS.png" alt="" height="50" width="300"/></b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-        <div class="np">
-        <h3>Pondok Pesantren Manba'ul Hisan</h3>
-         </div>
         <b-collapse id="nav-collapse" is-nav>
           <!-- Right aligned nav items -->
           <b-navbar-nav class="ml-auto">
             <b-navbar-nav>
               <b-nav-item><NuxtLink :to="('profil')">Profil</NuxtLink></b-nav-item>
-              <b-nav-item><NuxtLink :to="('posyandu')">Posyandu</NuxtLink></b-nav-item>
+              <!-- <b-nav-item><NuxtLink :to="('posyandu')">Posyandu</NuxtLink></b-nav-item> -->
               <b-nav-item><NuxtLink :to="('berita')">Berita</NuxtLink></b-nav-item>
               <b-nav-item><NuxtLink :to="('dokumen')">Dokumen</NuxtLink></b-nav-item>
               <b-nav-item><NuxtLink :to="('galeri')">Galeri</NuxtLink></b-nav-item>
@@ -39,13 +35,14 @@
         </b-collapse>
       </b-navbar>
     </div>
-
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-7bdf5161-1708-4728-83d5-1f8745dd565d" data-elfsight-app-lazy></div>
     <!-- NAVBAR END -->
 
     <!-- BACK TO TOP -->
-    <a href="#slider" id="myBtn" title="Go to top" style="scroll-behavior: auto"
+    <!-- <a href="#slider" id="myBtn" title="Go to top" style="scroll-behavior: auto"
       ><i class="fa-solid fa-angles-up"></i
-    ></a>
+    ></a> -->
     <!-- BACK TO TOP END -->
 
     <!-- HERO SECTION -->
@@ -62,7 +59,7 @@
             </div>
           </div>
           <div class="image">
-            <img src="~/assets/img/banner1.jpg"/>
+            <img src="~/assets/img/PONDOK PESANTREN MABA’UL HISAN TPA MANBA’UL HISAN SMP MANBA’UL HISAN SMK MANBA’UL HISAN.png"/>
           </div>
         </div>
 
@@ -128,39 +125,30 @@
     <div class="profil">
       <b-tabs content-class="mt-3" justified>
         <!-- profil Pesantren -->
-        <b-tab title="Profil Pesantren" class="tabs" active>
-          <h2>Profil <span>Pesantren</span></h2>
+        <b-tab title="Profile Pesantren" class="tabs" active>
+          <h2>Ponpes<span> Manba’ul Hisan</span></h2>
 
-          <p>
+          <!-- <p>
             - Pesantren Salaf, Pesantren Salafi, atau Pesantren Salafiyah adalah sebutan bagi pondok pesantren yang mengkaji kitab-kitab kuning. Pesantren salaf identik dengan pesantren tradisional yang berbeda dengan pesantren modern dalam hal metode pengajaran dan infrastrukturnya.
-          </p>
+          </p> -->
 
           <div class="tabwil">
             <div class="batwil">
-              <h5>Batas Wilayah Kecamatan Bogor Utara</h5>
+              <h5></h5>
               <p>
-                Utara ( Desa Cimandala, Desa Pasir Jambu, Desa pasir laja Kec.
-                Sukaraja Kab. bogor )
+                Pondok pesantren manbaul hisan adalah lembaga pendidikan islam swasta di rintis sejak 2016 di dirikan pondok pesantren pada tanggal 25 mei 2016 oleh KH. Ahmad Yusin Al-haqiqi dengan sistem kurikulum formal dan non-formal dan selalu mengedepankan kitab kuning klasik pondok pesantren manbaul hisan terletak di kaumpandak Rt02/12 Kel. Karadenan Kec. Cibinong Kab. Bogor Jawa barat ,Lokasi pesantren sangat menguntungkan di dekat kota yang mana hal hal tersebut memudahkan komunikasi baik dengan instansi pemerintah maupun masyarakat luas dengan di dukung lingkunagn yang asri ponpes manbaul hisan berusaha mencetak kader-kader generasi yang memiliki jiwa keikhlasan,kesederhanaa,kemandirian,ukhuwah islamiah,keluasan berpikir secara modern dan tidak anti kritik, dan berperilaku atas dasar Al-qur'an, Sunah Rasul dan Ijma para ulama ahli sunnah wal jamaah, dalam rangka untuk meningkatkan taqwa kepada Allah Swt
               </p>
 
               <p>
-                Barat ( Kali Ciliwung Kel. Tnaha Sareal, Kedung Badak Kec. Tanah
-                Sareal Kota Bogor )
+              Pengasuh Pondok Pesantren Manba'ul Hisan <br> - KH. Ahmad Yusin haqiqi <br> - Umi Hj. Enok Omah Hayati <br> <br> Pembimbing Pondok Pesantren Manba'ul Hisan <br> - Ustadz Ahmad Haqiqi S.E <br> - Ustadzah Robiatun Nidhomiyah S.Pd
               </p>
 
-              <p>
-                Timur (Kel. Katulampa Kec. Bogor Timur, Desa Sukaraja, Desa
-                Cadas Ngampar Kec. Sukaraja Kab. Bogor )
-              </p>
+              
 
               <p>Selatan ( Kel. Babakan, Kel. Tegallega Kec. Bogor Tengah )</p>
 
-              <h5 class="inov">Inovasi Kecamatan Bogor Utara diantaranya :</h5>
-              <p>
-                1. Pelayanan Ekstra Kecamatan Bogor Utara Dimana pada Hari Rabu
-                18.00 - 21.00 WIB dan Sabtu 08.00 - 12.00 WIB Pelayanan
-                Administrasi Kependudukan dibuka
-              </p>
+              
+              
               <p>
                 2. Pelayanan Satu Pintu Kecamatan Bogor Utara Dicetus dengan ide
                 kreatif sesuai dengan keadaan Masyarakat Kecamatan Bogor Utara.
@@ -181,34 +169,31 @@
             <div class="visi">
               <h5>Visi :</h5>
               <p>
-                "MEWUJUDKAN BOGOR UTARA YANG UNGGUL DALAM PEMBANGUNAN DAN PRIMA
-                DALAM PELAYANAN"
+                "Visi dari Ponpes Manba’ul Hisan adalah Mewujudkan Insan yang
+                bertaqwa, berakhlaqul karimah, kuat, mandiri, dan berintelektual."
               </p>
             </div>
 
             <div class="misi">
               <h5>Misi :</h5>
               <p>
-                1. Meningkatkan kinerja aparatur pemeritahan yang berlandaskan
-                Good Governance
+                1. Meneruskan semangat belajar dan pengamalan sesuai dengan ajaran
+                ahlussunah wal jama’ah dan Ulama salafussholih.
               </p>
 
-              <p>2. Meningkatkan partisipasi masyarakat dalam pembangunan</p>
+              <p>2. Membina budaya keshalihan baik individu maupun sosial dan asketisme
+                intelektual dikalangan santri dan masyarakat.</p>
 
               <p>
-                3. Mewujudkan pemukiman yang tertata baik dan berwawasan
-                lingkungan
+                3. Mengembangkan, dan melestarikan Ilmu-ilmu agama Islam klasik yang
+                tertuang dalam kitab kuning maupun litelatur-litelatur modern.
               </p>
             </div>
-          </div>
-
-          <div class="vs-img">
-            <img src="~/assets/img/visimisi.png" alt="" />
           </div>
         </b-tab>
 
         <!-- Data Pengajar -->
-        <b-tab title="Data Pengajar">
+        <!-- <b-tab title="Data Pengajar">
           <h2>Data <span>Pengajar</span></h2>
           <div class="table">
               <b-table
@@ -219,16 +204,7 @@
                 outlined
               ></b-table>
             </div>
-            <!-- <div class="table">
-              <b-table
-                striped
-                hover
-                :items="items"
-                :fields="fields"
-                outlined
-              ></b-table>
-            </div> -->
-        </b-tab>
+        </b-tab> -->
 
         <!-- struktur organisasi -->
         <b-tab title="Struktur Organisasi">
@@ -273,16 +249,15 @@
         </div>
         <div class="line"></div>
         <div class="sosmed">
-          <a href="#"> <i class="fa-brands fa-instagram fa-xl"></i></a>
-          <a href="#"> <i class="fa-brands fa-x-twitter fa-xl"></i></a>
-          <a href="#"> <i class="fa-brands fa-facebook fa-xl"></i></a>
+          <a href="https://www.instagram.com/manbaulhisan.official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="> <i class="fa-brands fa-instagram fa-xl"></i></a>
+          <!-- <a href="#"> <i class="fa-brands fa-x-twitter fa-xl"></i></a> -->
+          <a href="https://www.facebook.com/ponpesmanbaulhisan"> <i class="fa-brands fa-facebook fa-xl"></i></a>
           <a href="#"> <i class="fa-brands fa-youtube fa-xl"></i></a>
         </div>
         <div class="copyright">
-          <p>
-            copyright &copy; by <a href="">DISKOMINFO</a> Kota Bogor. All Right
-            Reserved.
-          </p>
+          
+          <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2024 Ponpes Manba'ul Hisan</span>
+					<span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center developer">Developed by MH Tech</span>
         </div>
       </div>
     </footer>
@@ -328,6 +303,7 @@ body {
   text-decoration: none;
 }
 
+
 .navbar-2 {
   padding: 5px 60px 5px 60px;
 }
@@ -336,6 +312,7 @@ body {
 #slider {
   width: 100%;
   height: 350px;
+  padding-top: 50px;
   position: relative;
   overflow: hidden;
 }
@@ -373,12 +350,12 @@ body {
   height: 10%;
 }
 .image {
-  width: 100%;
+  width: 80%;
   height: 100%;
 }
 .image img {
   width: 100%;
-  height: 100%;
+  height: 80%;
 }
 
 .ml-auto{
@@ -447,7 +424,7 @@ body {
 }
 
 /* Switch */
-/* .switch {
+.switch {
   width: 120px;
   height: 10px;
   position: absolute;
@@ -469,8 +446,9 @@ body {
 }
 .switch ul {
   overflow: hidden;
-} */
-/* .on {
+}
+
+.on {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -479,7 +457,7 @@ body {
   -webkit-animation: on 30s infinite;
   -moz-animation: on 30s infinite;
   animation: on 30s infinite;
-} */
+}
 
 /* Animation */
 @-webkit-keyframes slide {
@@ -814,8 +792,7 @@ body {
 
 /* data pejabat */
 .table{
-  justify-content: center;
-  margin-left: 250px;
+  width: 100%;
 }
 
 /* struktur organisasi */
@@ -824,14 +801,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-/* peta wilayah */
-.all-map {
-  display: flex;
-  justify-content: center;
-  gap: 25px;
-  margin-top: 20px;
 }
 
 .admin-kec-img img {
@@ -845,7 +814,7 @@ body {
 /* FOOTER */
 
 .all-footer {
-  background-color: rgb(20, 18, 26);
+  background-color: rgba(138,193,151,255);
   margin-top: 80px;
   padding: 50px 80px 10px 80px;
   text-align: center;
@@ -855,12 +824,16 @@ body {
 .foot-cont {
   display: flex;
   justify-content: center;
-  color: white;
+  color: black;
   gap: 13px;
 }
 
 .foot-cont h3 {
   font-size: 20px;
+}
+
+.foot-cont h5 {
+  color: black;
 }
 
 .foot-cont i {
@@ -869,7 +842,7 @@ body {
 
 .footer-1 p {
   font-size: 15px;
-  color: white;
+  color: black;
   font-style: italic;
   margin-top: 10px;
 }
@@ -879,7 +852,7 @@ body {
   justify-content: center;
   width: 100%;
   height: 1px;
-  background-color: white;
+  background-color: black;
   text-align: center;
   margin-top: 40px;
 }
@@ -892,7 +865,7 @@ body {
 }
 
 .sosmed a {
-  color: white;
+  color: black;
 }
 
 .sosmed a i:hover {
@@ -1035,63 +1008,16 @@ export default {
           Nama_Pengajar: "Ust. Syafikul Kholqi",
           Mengajar: "Kitab Kuning",
         },
-      ],
-    };
-  },
-
-  data() {
-    return {
-      // Note `isActive` is left out and will not appear in the rendered table
-      fields: ["No", "Nama_Pengajar","Mengajar"],
-      items: [
         {
           isActive: true,
-          No: "1",
-          Nama_Pengajar: "KH. Yusin Haqiqi",
-          Mengajar: "Kitab Kuning",
-        },
-        {
-          isActive: true,
-          No: "2",
-          Nama_Pengajar: "Ust. Ahmad Haqiqi",
-          Mengajar: "Kitab Kuning",
-        },
-        {
-          isActive: true,
-          No: "3",
-          Nama_Pengajar: "Ust. Syafikul Kholqi",
+          No: "4",
+          Nama_Pengajar: "Ust. Dede Mubarok",
           Mengajar: "Kitab Kuning",
         },
       ],
     };
   },
   
-  data() {
-    return {
-      // Note `isActive` is left out and will not appear in the rendered table
-      fields: ["No", "Nama_Pengajar","Mengajar"],
-      items: [
-        {
-          isActive: true,
-          No: "1",
-          Nama_Pengajar: "KH. Yusin Haqiqi",
-          Mengajar: "Kitab Kuning",
-        },
-        {
-          isActive: true,
-          No: "2",
-          Nama_Pengajar: "Ust. Ahmad Haqiqi",
-          Mengajar: "Kitab Kuning",
-        },
-        {
-          isActive: true,
-          No: "3",
-          Nama_Pengajar: "Ust. Syafikul Kholqi",
-          Mengajar: "Kitab Kuning",
-        },
-      ],
-    };
-  },
 
   // data() {
   //   return {
