@@ -67,15 +67,14 @@
           <div class="legend"></div>
           <div class="content">
             <div class="content-txt">
-              <h1>Kecamatan <span>Bogor Utara</span></h1>
+              <h1>PP. <span>Manba'ul Hisan</span></h1>
               <p>
-                Selamat Datang di Website Resmi Pemerintah Kota Bogor, Kecamatan
-                Bogor Utara
+                Selamat Datang di Website Resmi Pondok Pesantren Manba'ul Hisan
               </p>
             </div>
           </div>
           <div class="image">
-            <img src="~/assets/img/BG2-KECAMATAN-01.jpg" />
+            <img src="~/assets/img/4.png"/>
           </div>
         </div>
 
@@ -83,15 +82,14 @@
           <div class="legend"></div>
           <div class="content">
             <div class="content-txt">
-              <h1>Kecamatan <span>Bogor Utara</span></h1>
-              <p style="color: black">
-                Selamat Datang di Website Resmi Pemerintah Kota Bogor, Kecamatan
-                Bogor Utara
+              <h1>PP. <span>Manba'ul Hisan</span></h1>
+              <p>
+                Selamat Datang di Website Resmi Pondok Pesantren Manba'ul Hisan
               </p>
             </div>
           </div>
           <div class="image">
-            <img src="~/assets/img/banner1revv.jpg" />
+            <img src="~/assets/img/2.png" />
           </div>
         </div>
 
@@ -99,15 +97,14 @@
           <div class="legend"></div>
           <div class="content">
             <div class="content-txt">
-              <h1>Kecamatan <span>Bogor Utara</span></h1>
+              <h1>PP. <span>Manba'ul Hisan</span></h1>
               <p>
-                Selamat Datang di Website Resmi Pemerintah Kota Bogor, Kecamatan
-                Bogor Utara
+                Selamat Datang di Website Resmi Pondok Pesantren Manba'ul Hisan
               </p>
             </div>
           </div>
           <div class="image">
-            <img src="~/assets/img/banner3.jpg" />
+            <img src="~/assets/img/5.png" />
           </div>
         </div>
 
@@ -115,15 +112,29 @@
           <div class="legend"></div>
           <div class="content">
             <div class="content-txt">
-              <h1>Kecamatan <span>Bogor Utara</span></h1>
+              <h1>PP. <span>Manba'ul Hisan</span></h1>
               <p>
-                Selamat Datang di Website Resmi Pemerintah Kota Bogor, Kecamatan
-                Bogor Utara
+                Selamat Datang di Website Resmi Pondok Pesantren Manba'ul Hisan
               </p>
             </div>
           </div>
           <div class="image">
-            <img src="~/assets/img/banner6.jpeg" />
+            <img src="~/assets/img/1.png" />
+          </div>
+        </div>
+
+        <div class="slider">
+          <div class="legend"></div>
+          <div class="content">
+            <div class="content-txt">
+              <h1>PP. <span>Manba'ul Hisan</span></h1>
+              <p>
+                Selamat Datang di Website Resmi Pondok Pesantren Manba'ul Hisan
+              </p>
+            </div>
+          </div>
+          <div class="image">
+            <img src="~/assets/img/3.png" />
           </div>
         </div>
       </div>
@@ -132,6 +143,7 @@
           <li>
             <div class="on"></div>
           </li>
+          <li></li>
           <li></li>
           <li></li>
           <li></li>

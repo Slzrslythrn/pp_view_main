@@ -19,20 +19,16 @@
     <div id="navbar" style="position: fixed; width: 100%; z-index: 12">
       <b-navbar toggleable="lg" class="navbar-2">
         <b-navbar-brand href="./"
-          ><img src="~/assets/img/icon.jpeg" alt="" height="50" width="50"
-        /></b-navbar-brand>
+          ><img src="~/assets/img/CERDAS - IKHLAS -LUAS.png" alt="" height="50" width="300"/></b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <div class="np">
-        <h3>Pondok Pesantren Manba'ul Hisan</h3>
+        
          </div>
         <b-collapse id="nav-collapse" is-nav>
           <!-- Right aligned nav items -->
           <b-navbar-nav class="ml-auto">
             <b-navbar-nav>
               <b-nav-item><NuxtLink :to="('profil')">Profil</NuxtLink></b-nav-item>
-              <b-nav-item><NuxtLink :to="('posyandu')">Posyandu</NuxtLink></b-nav-item>
-              <b-nav-item><NuxtLink :to="('berita')">Berita</NuxtLink></b-nav-item>
-              <b-nav-item><NuxtLink :to="('dokumen')">Dokumen</NuxtLink></b-nav-item>
               <b-nav-item><NuxtLink :to="('galeri')">Galeri</NuxtLink></b-nav-item>
             </b-navbar-nav>
           </b-navbar-nav>
@@ -52,62 +48,32 @@
     <div id="slider">
       <div class="slides">
         <div class="slider">
-          <div class="legend"></div>
-          <div class="content">
-            <div class="content-txt">
-              <h1>PP. <span>Manba'ul Hisan</span></h1>
-              <p>
-                Selamat Datang di Website Resmi Pondok Pesantren Manba'ul Hisan
-              </p>
-            </div>
-          </div>
           <div class="image">
-            <img src="~/assets/img/banner1.jpg"/>
+            <img src="~/assets/img/4.png"/>
           </div>
         </div>
 
-        <div class="slider">
-          <div class="legend"></div>
-          <div class="content">
-            <div class="content-txt">
-              <h1>PP. <span>Manba'ul Hisan</span></h1>
-              <p>
-                Selamat Datang di Website Resmi Pondok Pesantren Manba'ul Hisan
-              </p>
-            </div>
-          </div>
+        <div class="slider">          
           <div class="image">
-            <img src="~/assets/img/banner2.jpg" />
+            <img src="~/assets/img/2.png" />
           </div>
         </div>
 
-        <div class="slider">
-          <div class="legend"></div>
-          <div class="content">
-            <div class="content-txt">
-              <h1>PP. <span>Manba'ul Hisan</span></h1>
-              <p>
-                Selamat Datang di Website Resmi Pondok Pesantren Manba'ul Hisan
-              </p>
-            </div>
-          </div>
+        <div class="slider">         
           <div class="image">
-            <img src="~/assets/img/banner3.jpg" />
+            <img src="~/assets/img/5.png" />
           </div>
         </div>
 
-        <div class="slider">
-          <div class="legend"></div>
-          <div class="content">
-            <div class="content-txt">
-              <h1>PP. <span>Manba'ul Hisan</span></h1>
-              <p>
-                Selamat Datang di Website Resmi Pondok Pesantren Manba'ul Hisan
-              </p>
-            </div>
-          </div>
+        <div class="slider">         
           <div class="image">
-            <img src="~/assets/img/Discover SEKOLAH Empowering Education for Every Child.png" />
+            <img src="~/assets/img/1.png" />
+          </div>
+        </div>
+
+        <div class="slider">         
+          <div class="image">
+            <img src="~/assets/img/3.png" />
           </div>
         </div>
       </div>
@@ -118,7 +84,7 @@
           </li>
           <li></li>
           <li></li>
-          <li></li>
+          <li></li>         
         </ul>
       </div>
     </div>
@@ -135,11 +101,11 @@
             <div class="album">
               <div class="album-img">
                 <a href="#"
-                  ><img src="~assets/img/galeri/surkenfest.png" alt=""
+                  ><img src="~assets/img/foto/IMG_3920_result.jpg" alt=""
                 /></a>
               </div>
               <div class="album-content">
-                <h5>Surken Fest</h5>
+                <h5>kenaikan</h5>
                 <div class="album-content-date">
                   <i class="fa-regular fa-calendar-days fa-sm"></i>
 
@@ -911,7 +877,7 @@ export default {
   //meta
   head() {
     return {
-      title: "GALERI | Kecamatan Bogor Utara",
+      title: "GALERI | Ponpes Man'baul Hisan",
       meta: [
         {
           hid: "og:title",

@@ -26,9 +26,6 @@
           <b-navbar-nav class="ml-auto">
             <b-navbar-nav>
               <b-nav-item><NuxtLink :to="('profil')">Profil</NuxtLink></b-nav-item>
-              <!-- <b-nav-item><NuxtLink :to="('posyandu')">Posyandu</NuxtLink></b-nav-item> -->
-              <b-nav-item><NuxtLink :to="('berita')">Berita</NuxtLink></b-nav-item>
-              <b-nav-item><NuxtLink :to="('dokumen')">Dokumen</NuxtLink></b-nav-item>
               <b-nav-item><NuxtLink :to="('galeri')">Galeri</NuxtLink></b-nav-item>
             </b-navbar-nav>
           </b-navbar-nav>
@@ -49,62 +46,32 @@
     <div id="slider">
       <div class="slides">
         <div class="slider">
-          <div class="legend"></div>
-          <div class="content">
-            <div class="content-txt">
-              <h1>PP. <span>Manba'ul Hisan</span></h1>
-              <p>
-                Selamat Datang di Website Resmi Pondok Pesantren Manba'ul Hisan
-              </p>
-            </div>
-          </div>
           <div class="image">
-            <img src="~/assets/img/PONDOK PESANTREN MABA’UL HISAN TPA MANBA’UL HISAN SMP MANBA’UL HISAN SMK MANBA’UL HISAN.png"/>
+            <img src="~/assets/img/4.png"/>
           </div>
         </div>
 
-        <div class="slider">
-          <div class="legend"></div>
-          <div class="content">
-            <div class="content-txt">
-              <h1>PP. <span>Manba'ul Hisan</span></h1>
-              <p>
-                Selamat Datang di Website Resmi Pondok Pesantren Manba'ul Hisan
-              </p>
-            </div>
-          </div>
+        <div class="slider">          
           <div class="image">
-            <img src="~/assets/img/banner2.jpg" />
+            <img src="~/assets/img/2.png" />
           </div>
         </div>
 
-        <div class="slider">
-          <div class="legend"></div>
-          <div class="content">
-            <div class="content-txt">
-              <h1>PP. <span>Manba'ul Hisan</span></h1>
-              <p>
-                Selamat Datang di Website Resmi Pondok Pesantren Manba'ul Hisan
-              </p>
-            </div>
-          </div>
+        <div class="slider">         
           <div class="image">
-            <img src="~/assets/img/banner3.jpg" />
+            <img src="~/assets/img/5.png" />
           </div>
         </div>
 
-        <div class="slider">
-          <div class="legend"></div>
-          <div class="content">
-            <div class="content-txt">
-              <h1>PP. <span>Manba'ul Hisan</span></h1>
-              <p>
-                Selamat Datang di Website Resmi Pondok Pesantren Manba'ul Hisan
-              </p>
-            </div>
-          </div>
+        <div class="slider">         
           <div class="image">
-            <img src="~/assets/img/Discover SEKOLAH Empowering Education for Every Child.png" />
+            <img src="~/assets/img/1.png" />
+          </div>
+        </div>
+
+        <div class="slider">         
+          <div class="image">
+            <img src="~/assets/img/3.png" />
           </div>
         </div>
       </div>
@@ -115,7 +82,7 @@
           </li>
           <li></li>
           <li></li>
-          <li></li>
+          <li></li>         
         </ul>
       </div>
     </div>
@@ -311,8 +278,8 @@ body {
 /* HERO SECTION */
 #slider {
   width: 100%;
-  height: 350px;
-  padding-top: 50px;
+  height: 500px;
+  padding-top : 30px;
   position: relative;
   overflow: hidden;
 }
@@ -350,12 +317,12 @@ body {
   height: 10%;
 }
 .image {
-  width: 80%;
+  width: 100%;
   height: 100%;
 }
 .image img {
   width: 100%;
-  height: 80%;
+  height: 100%;
 }
 
 .ml-auto{
@@ -814,7 +781,7 @@ body {
 /* FOOTER */
 
 .all-footer {
-  background-color: rgba(138,193,151,255);
+  background-color: #145858;
   margin-top: 80px;
   padding: 50px 80px 10px 80px;
   text-align: center;
