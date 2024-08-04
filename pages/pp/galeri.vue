@@ -159,11 +159,71 @@
                 <h5>Hari Santri</h5>
                 <div class="album-content-date">
                   <i class="fa-regular fa-calendar-days fa-sm"></i>
-
                   <p>22 Oktober 2023</p>
                 </div>
               </div>
             </div>
+
+            <div class="album">
+              <div class="album-img">
+                <a href="#"
+                  ><img src="~assets/img/foto/fix1.JPG" alt=""
+                /></a>
+              </div>
+              <div class="album-content">
+                <h5>Pengurus Santriawan</h5>
+                <div class="album-content-date">
+                  <i class="fa-regular fa-calendar-days fa-sm"></i>
+                  <p>7 Maret 2024</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="album">
+              <div class="album-img">
+                <a href="#"
+                  ><img src="~assets/img/foto/fix17.png" alt=""
+                /></a>
+              </div>
+              <div class="album-content">
+                <h5>Idul Adha</h5>
+                <div class="album-content-date">
+                  <i class="fa-regular fa-calendar-days fa-sm"></i>
+                  <p>7 Maret 2024</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="album">
+              <div class="album-img">
+                <a href="#"
+                  ><img src="~assets/img/foto/ziarah1.jpg" alt=""
+                /></a>
+              </div>
+              <div class="album-content">
+                <h5>Ziarah to Demak</h5>
+                <div class="album-content-date">
+                  <i class="fa-regular fa-calendar-days fa-sm"></i>
+                  <p>7 Maret 2024</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="album">
+              <div class="album-img">
+                <a href="#"
+                  ><img src="~assets/img/foto/fix3.JPG" alt=""
+                /></a>
+              </div>
+              <div class="album-content">
+                <h5>Pengurus Santriwati</h5>
+                <div class="album-content-date">
+                  <i class="fa-regular fa-calendar-days fa-sm"></i>
+                  <p>7 Maret 2024</p>
+                </div>
+              </div>
+            </div>
+
           </div>
         </b-tab>
 
