@@ -107,24 +107,17 @@
               </p>
 
               <p>
-              Pengasuh Pondok Pesantren Manba'ul Hisan <br> - KH. Ahmad Yusin haqiqi <br> - Umi Hj. Enok Omah Hayati <br> <br> Pembimbing Pondok Pesantren Manba'ul Hisan <br> - Ustadz Ahmad Haqiqi S.E <br> - Ustadzah Robiatun Nidhomiyah S.Pd
+              Pengasuh Pondok Pesantren Manba'ul Hisan <br> - KH. Ahmad Yusin haqiqi <br> - Umi Hj. Enok Omah Hayati <br> 
               </p>
 
-              
-
-              <p>Selatan ( Kel. Babakan, Kel. Tegallega Kec. Bogor Tengah )</p>
-
-              
-              
               <p>
-                2. Pelayanan Satu Pintu Kecamatan Bogor Utara Dicetus dengan ide
-                kreatif sesuai dengan keadaan Masyarakat Kecamatan Bogor Utara.
-                Camat Bogor Utara melakukan sebuah inovasi Pelayanan dimana
-                setiap pelayanan administrasi kependudukan bisa melalui
-                kelurahan dan untuk tanda tangan atau pengesahan Camat Bogor
-                Utara maka bisa menunggu di Kelurahan di Wilyaha Kecamatan Bogor
-                Utara.,x
+                Pembimbing Pondok Pesantren Manba'ul Hisan <br> - Ustadz Ahmad Haqiqi S.E <br> - Ustadzah Robiatun Nidhomiyah S.Pd
+              </p> 
+
+              <p>
+                Pengajar Pondok Pesantren Manba’ul Hisan <br> - Ustadz Mansyuri <br> - Ustadz Syafikul Cholqi <br> - Ustadz Wahyu Nugraha <br> - Ustadz Dede Mubarok <br> - Ustadz Mohammad Ilham
               </p>
+            
             </div>
           </div>
         </b-tab>
@@ -178,7 +171,7 @@
           <h2>Struktur <span>Organisasi</span></h2>
           <div class="img-so">
             <img
-              src="~/assets/img/struktur_organisasi.png"
+              src="~/assets/img/MH ST.png"
               alt="Struktur Organisasi Gambar"
             />
           </div>

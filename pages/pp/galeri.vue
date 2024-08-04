@@ -105,11 +105,11 @@
                 /></a>
               </div>
               <div class="album-content">
-                <h5>kenaikan</h5>
+                <h5>Ikhtitamul Kutub</h5>
                 <div class="album-content-date">
                   <i class="fa-regular fa-calendar-days fa-sm"></i>
 
-                  <p>7 Maret 2024</p>
+                  <p>1 Januari 2024</p>
                 </div>
               </div>
             </div>
@@ -117,14 +117,31 @@
             <div class="album">
               <div class="album-img">
                 <a href="#"
-                  ><img src="~assets/img/galeri/cimahparmenggambar.png" alt=""
+                  ><img
+                    src="~assets/img/foto/17.jpg"
+                    alt="hari kemerdekaan"
                 /></a>
               </div>
               <div class="album-content">
-                <h5>Cimahpar Menggambar</h5>
+                <h5>Hari Kemerdekaan</h5>
                 <div class="album-content-date">
                   <i class="fa-regular fa-calendar-days fa-sm"></i>
 
+                  <p>17 Agustus 2023</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="album">
+              <div class="album-img">
+                <a href="#"
+                  ><img src="~assets/img/foto/ziarah.jpg" alt=""
+                /></a>
+              </div>
+              <div class="album-content">
+                <h5>Ziarah to Tuban</h5>
+                <div class="album-content-date">
+                  <i class="fa-regular fa-calendar-days fa-sm"></i>
                   <p>7 Maret 2024</p>
                 </div>
               </div>
@@ -134,34 +151,16 @@
               <div class="album-img">
                 <a href="#"
                   ><img
-                    src="~assets/img/galeri/alatdeteks banjir.png"
-                    alt="alat detek banjir"
-                /></a>
-              </div>
-              <div class="album-content">
-                <h5>Alat Detek Banjir</h5>
-                <div class="album-content-date">
-                  <i class="fa-regular fa-calendar-days fa-sm"></i>
-
-                  <p>7 Maret 2024</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="album">
-              <div class="album-img">
-                <a href="#"
-                  ><img
-                    src="~assets/img/galeri/rapatodfkec.png"
+                    src="~assets/img/foto/Fix16.JPG"
                     alt="Rapat ODF"
                 /></a>
               </div>
               <div class="album-content">
-                <h5>Rapat ODF</h5>
+                <h5>Hari Santri</h5>
                 <div class="album-content-date">
                   <i class="fa-regular fa-calendar-days fa-sm"></i>
 
-                  <p>7 Maret 2024</p>
+                  <p>22 Oktober 2023</p>
                 </div>
               </div>
             </div>
@@ -186,9 +185,9 @@
             <h3>KONTAK KAMI</h3>
           </div>
           <div class="foot-almt" style="margin-top: 20px">
-            <h5>Alamat Kantor :</h5>
+            <h5>Alamat Pondok Pesantren :</h5>
             <p style="margin-bottom: 20px; font-size: 14px">
-              Jl. Gagalur II No.2
+              Jl. Karadenan Kaumpandak Cibinong Bogor, Bogor, Indonesia
             </p>
           </div>
 
@@ -201,21 +200,20 @@
 
           <div class="foot-almt" style="margin-top: 30px">
             <h5>No Telopn :</h5>
-            <p style="margin-bottom: 20px; font-size: 14px">(0251) 8323444</p>
+            <p style="margin-bottom: 20px; font-size: 14px">+62895613170166</p>
           </div>
         </div>
         <div class="line"></div>
         <div class="sosmed">
-          <a href="#"> <i class="fa-brands fa-instagram fa-xl"></i></a>
-          <a href="#"> <i class="fa-brands fa-x-twitter fa-xl"></i></a>
-          <a href="#"> <i class="fa-brands fa-facebook fa-xl"></i></a>
+          <a href="https://www.instagram.com/manbaulhisan.official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="> <i class="fa-brands fa-instagram fa-xl"></i></a>
+          <!-- <a href="#"> <i class="fa-brands fa-x-twitter fa-xl"></i></a> -->
+          <a href="https://www.facebook.com/ponpesmanbaulhisan"> <i class="fa-brands fa-facebook fa-xl"></i></a>
           <a href="#"> <i class="fa-brands fa-youtube fa-xl"></i></a>
         </div>
         <div class="copyright">
-          <p>
-            copyright &copy; by <a href="">DISKOMINFO</a> Kota Bogor. All Right
-            Reserved.
-          </p>
+          
+          <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2024 Ponpes Manba'ul Hisan</span>
+					<span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center developer">Developed by MH Tech</span>
         </div>
       </div>
     </footer>
